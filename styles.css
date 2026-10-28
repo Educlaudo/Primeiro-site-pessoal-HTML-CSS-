@@ -4,10 +4,27 @@
     box-sizing: border-box;
 }
 
+#title {
+    font-family: 'Jacquard 12', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "JetBrains Mono", sans-serif;
+    color: #333333;
+}
+
+main {
+    max-width: 1880px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 .TOPheader {
     background-color: #11adc1;
     color: #ffffff;
-    font-family: 'Jacquard 12', sans-serif;
     width: 100%;    
     display: flex;
     align-items: center;
@@ -26,6 +43,7 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    aspect-ratio: 1 / 1;
     object-position: center 10%;
     object-fit: cover;
     border: 4px outset #ff895d;
@@ -133,4 +151,8 @@ h3 {
 footer a:hover i,
 .rodapé a:hover i {
     color: #7CE6F4;
+}
+
+.destaque {
+    font-weight: bold;
 }
