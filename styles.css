@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.TOPheader {
+    background-color: #11adc1;
+    color: #ffffff;
+    font-family: 'Jacquard 12', sans-serif;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    border-bottom: 8px solid #FF7847;
+}
+
+.TOPheader h1 {
+    font-size: 80px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-position: center 10%;
+    object-fit: cover;
+    border: 4px outset #ff895d;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #373F51
+}
+
+h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    span:nth-child(odd) {
+        color:#11adc1
+    }
+    span:nth-child(even) {
+        color:#ff895d
+    }
+}
+
+.introduction {
+    max-width: 95%;
+    margin: 30px 20px;
+    /*padding: 0;*/
+}
+
+.passions {
+    margin: 30px 20px;
+}
+
+.passions ul, .passions ol {
+    padding-left: 40px;
+}
+
+.rodapé {
+    background-color: #ff895d;
+    color: #ffffff;
+    font-family: 'Jacquard 12', sans-serif;
+    font-size: 20px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    border-top: 8px solid #11adc1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    gap: 1cm;
+}
+
+ul, ol {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    line-height: 1.6;
+    li:nth-child(odd){
+        color: #ff895d;
+        strong {color: #ff895d};
+    }
+    li:nth-child(even){
+        color: #11adc1;
+        strong {color: #11adc1};
+    }
+}
+
+.dreams {
+    margin: 30px 20px;
+}
+
+.dreams ul, .dreams ol {
+    padding-left: 40px;
+}
+
+h3 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 24px;
+    font-style: italic;
+    color:#373F51
+}
+
+.conclusion {
+    margin: 30px 20px;
+}
+
+.conclusion ul, .conclusion ol {
+    padding-left: 40px;
+}
+
+.rodapé a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+footer a:hover i,
+.rodapé a:hover i {
+    color: #7CE6F4;
+}
